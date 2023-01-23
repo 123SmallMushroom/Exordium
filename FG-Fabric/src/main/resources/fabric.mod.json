@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "exordium",
+  "id": "fastergui",
   "version": "${version}",
 
-  "name": "Exordium",
+  "name": "FasterGui-Fabric",
   "description": "Render the ingame gui on its own FPS limiter",
   "authors": [
     "tr7zw"
@@ -15,19 +15,19 @@
   },
 
   "license": "tr7zw Protective License",
-  "icon": "assets/exordium/icon.png",
+  "icon": "assets/fastergui/icon.png",
 
   "environment": "client",
   "entrypoints": {
     "client": [
-      "dev.tr7zw.exordium.ExordiumMod"
+      "dev.tr7zw.fastergui.FasterGuiMod"
     ],
     "modmenu": [
-      "dev.tr7zw.exordium.ExordiumModMenu"
+      "dev.tr7zw.fastergui.FasterGuiModMenu"
     ]
   },
   "mixins": [
-    "exordium.mixins.json"
+    "fastergui.mixins.json"
   ],
 
   "depends": {
